@@ -1,0 +1,21 @@
+.header{
+    background-color: rgb(17 24 39);
+    height: 48px;
+    position: relative;
+    z-index: -100;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+#apply-now{
+    color: white;
+    text-decoration: none;
+    padding: 4px 14px;
+    background-color: #111827;
+    border-radius: 100px;
+    font-weight: 600;
+}
+
+#apply-now:hover{
+    background-color: rgb(55 65 81);
+}

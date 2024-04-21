@@ -1,0 +1,11 @@
+.drop-d li a:hover {
+    background-color: rgb(55 65 81);
+}
+
+.under-line-hover{
+    line-height: 48px;
+}
+
+.under-line-hover:hover{
+    border-bottom: rgb(107 114 128 ) solid 2px;
+}
