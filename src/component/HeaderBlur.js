@@ -8,9 +8,10 @@ const HeaderBlur = (props) => {
             right: props.right,
             top: 0,
             zIndex: -100,
+            width: '30%'
         }}>
             <div style={{
-                width: '577px',
+                width: '100%',
                 height: '310px',
                 transform: 'translate3d(0,-50%,0)',
                 backgroundImage: 'linear-gradient(to right,#ff80b5, #9089fc)',
