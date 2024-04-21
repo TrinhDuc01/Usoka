@@ -14,8 +14,7 @@ const ModalCustom = (props) => {
             <Button variant="btn btn-outline-light border-0" onClick={handleShow}>
             <i class={props.icon}></i> {props.text}
             </Button>
-
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} centered={props.centered}>
                 {props.children}
             </Modal>
         </>
